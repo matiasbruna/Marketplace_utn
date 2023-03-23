@@ -11,11 +11,21 @@ body{
     max-height: 100%;
     grid-template-rows: 25% auto 20%;
     grid-template-columns: auto auto auto;
-    background-color: rgb(225, 255, 53);
+    background-color: rgb(255, 255, 255);
     justify-items: stretch;
     align-items: stretch;
 }
 
+.grid-layout{
+    padding: 10px;
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(255, 255, 255);
+    justify-items: stretch;
+    align-items: center;
+
+}
 
 
 .head{
@@ -29,6 +39,13 @@ body{
 .cont{
  
     background-color: rgb(216, 219, 221);
+    border-radius: 5px;
+    border: 1px solid;
+    width: 20.5rem;
+    height: 25rem;
+    background-color: rgb(250, 237, 237);
+    margin-top: 2rem;
+    margin: 8rem;
     
 }
 
@@ -66,4 +83,34 @@ h3{
     margin-left: 1rem;
     margin-top: 0.3 rem;
     margin-bottom: 0.3rem;
+}
+h2{
+    font-size: 1rem;
+
+}
+
+input[type="text"] {
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 600px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border: 1px solid #0077b5;
+}
+
+::placeholder {
+    color: #aaa;
+    font-style: italic;
+}
+
+.producto{
+
+    max-width: 90%;
+    text-align: center;
+    background-color: #0077b5;
 }
