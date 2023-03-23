@@ -1,3 +1,69 @@
+@font-face {
+    font-family: inconsolata;
+    src: url(../fuente/Inconsolata-VariableFont_wdth\,wght.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: grid;
+    height: 100vh;
+    max-height: 100%;
+    grid-template-rows: 25% auto 20%;
+    grid-template-columns: auto auto auto;
+    background-color: rgb(225, 255, 53);
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+
+
+.head{
+    grid-column: 1/4;
+    background: linear-gradient(to bottom, #13222c, #57626d);
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+.cont{
+ 
+    background-color: rgb(216, 219, 221);
+    
+}
+
+.footer{
+    grid-column: 1/4;
+    background-color: rgb(66, 128, 128);
+    border: 1px solid black;
+    color: antiquewhite;
+    text-align: left;
+    background-image: linear-gradient(to bottom, #333333, #000000); /* degradado de arriba hacia abajo */
+    border: none; /* borde cero */
+    color: #ffffff; /* color del texto en el footer */
+}
+
+
 h1{
     color: crimson;
+    font-family: inconsolata;
+    font-size: 2.2rem;
+    margin-top: 2.1rem;
+}
+
+.footer-text {
+    padding: 0%;
+    margin: 0%;
+
+    font-size: 0,1rem;
+}
+.contenedor-footer{
+    margin-left: 1rem;
+}
+
+h3{
+    padding: 0%;
+    margin-left: 1rem;
+    margin-top: 0.3 rem;
+    margin-bottom: 0.3rem;
 }
